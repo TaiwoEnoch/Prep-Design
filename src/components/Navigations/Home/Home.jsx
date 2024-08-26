@@ -21,7 +21,7 @@ const Home = () => {
       <Rands />
     </div>
     <div className='px-4'>
-      <div className='flex justify-center text-[#C0BFBF] bg-[#efefef] py-16 px-6 rounded-3xl'>
+      <div className='flex w-full md:w-[50%] max-w-full mx-auto justify-center text-[#C0BFBF] bg-[#efefef] py-16 px-6 rounded-3xl'>
         <Claim />
       </div>
     </div>
@@ -31,7 +31,7 @@ const Home = () => {
       <Owanbe />
       <Streaks />
     </div>
-    <div className='flex gap-4 py-3 px-4 justify-center'>
+    <div className='flex w-full md:w-[50%] max-w-full mx-auto gap-4 py-3 px-4 justify-center'>
       <div className='text-[#C0BFBF] bg-[#efefef] py-10 px-[24%] rounded-2xl'>
         <PlainCard />
       </div>

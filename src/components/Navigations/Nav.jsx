@@ -13,9 +13,9 @@ const Nav = () => {
 
   return (
     <>
-      <nav className='w-full'>
-        <section className='w-full md:w-[40%] max-w-full bg-[#fbfbfb] border-t-2 border-[#e5e5e5] py-4 mx-auto flex justify-center'>
-          <ul className='flex gap-12 items-center'>
+      <nav className='w-full mb-4'>
+        <section className='w-full md:w-[100%] max-w-full bg-[#fbfbfb] border-t-2 border-[#e5e5e5] py-4 mx-auto flex justify-center'>
+          <ul className='flex gap-10 items-center'>
             <li>
               <Link 
                 to="/" 

@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <>
       <section className="w-full">
-  <div className='w-full md:w-[40%] max-w-full bg-[#fbfbfb] border-t-2 border-[#e5e5e5] py-4 mx-auto'>
-    <div className='flex gap-2 py-6 justify-center'>
+  <div className='w-full md:w-[100%] max-w-full bg-[#fbfbfb] border-t-2 border-[#e5e5e5] py-4 mx-auto'>
+    <div className='flex gap-4 md:gap-10 py-6 justify-center'>
       <NewPost />
       <QnAns />
       <Kiwi />
@@ -25,7 +25,7 @@ const Home = () => {
         <Claim />
       </div>
     </div>
-    <div className='flex gap-2 py-6 justify-center'>
+    <div className='flex gap-4 md:gap-10 py-6 justify-center'>
       <WishList />
       <DiaryRoom />
       <Owanbe />

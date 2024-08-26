@@ -25,7 +25,7 @@ const TopBar = () => {
   // md:mt-8
   return (
     <>
-      <section className='w-full md:w-[40%] max-w-full m-auto mt-0 bg-white border-b-2 border-[#fcdd00] px-4 py-6'>
+      <section className='w-full md:w-[100%] max-w-full bg-white border-b-2 border-[#fcdd00] px-4 py-6'>
         <div className='flex justify-between px-4'>
           <div className='flex items-center'>
             <img src={logo} alt="Logo" />

@@ -1,0 +1,61 @@
+{
+  "hash": "1402438d",
+  "configHash": "de2c8e4a",
+  "lockfileHash": "c96045a1",
+  "browserHash": "7af3a6b8",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "52348214",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "1b1b1b61",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "c90b271b",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Home": {
+      "src": "../../node_modules/@mui/icons-material/Home.js",
+      "file": "@mui_icons-material_Home.js",
+      "fileHash": "408de021",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Message": {
+      "src": "../../node_modules/@mui/icons-material/Message.js",
+      "file": "@mui_icons-material_Message.js",
+      "fileHash": "ca49f1f9",
+      "needsInterop": true
+    },
+    "@mui/icons-material/CreateNewFolder": {
+      "src": "../../node_modules/@mui/icons-material/CreateNewFolder.js",
+      "file": "@mui_icons-material_CreateNewFolder.js",
+      "fileHash": "435083ef",
+      "needsInterop": true
+    },
+    "@mui/icons-material/PersonOutline": {
+      "src": "../../node_modules/@mui/icons-material/PersonOutline.js",
+      "file": "@mui_icons-material_PersonOutline.js",
+      "fileHash": "8432a039",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-YUNTBJI6": {
+      "file": "chunk-YUNTBJI6.js"
+    },
+    "chunk-X73CH54Q": {
+      "file": "chunk-X73CH54Q.js"
+    },
+    "chunk-45FXRYJS": {
+      "file": "chunk-45FXRYJS.js"
+    }
+  }
+}

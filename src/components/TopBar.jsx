@@ -22,21 +22,19 @@ const TopBar = () => {
   };
 
   const navName = getNavName(location.pathname);
-  // md:mt-8
+
   return (
-    <>
-      <section className='w-full md:w-[100%] max-w-full bg-white border-b-2 border-[#fcdd00] px-4 py-6'>
-        <div className='flex justify-between px-4'>
-          <div className='flex items-center'>
-            <img src={logo} alt="Logo" />
-            <span className="ml-2">{navName}</span> {/* Display the navigation name */}
-          </div>
-          <div>
-            <img src={useravatar} alt="User Avatar" />
-          </div>
+    <header className='w-full bg-white border-b-2 border-[#fcdd00] px-4 py-6 fixed top-0 left-0 right-0 z-10'>
+      <div className='flex justify-between items-center'>
+        <div className='flex items-center'>
+          <img src={logo} alt="Logo" className="h-8 w-auto" />
+          <span className="ml-2 text-xl font-medium">{navName}</span> {/* Display the navigation name */}
         </div>
-      </section>
-    </>
+        <div>
+          <img src={useravatar} alt="User Avatar" className="h-8 w-8 rounded-full" />
+        </div>
+      </div>
+    </header>
   );
 };
 
